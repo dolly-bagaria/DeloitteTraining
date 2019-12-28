@@ -21,6 +21,7 @@ public class VowelCountMap {
 		
 		findCount(st,map);
 		}
+		return;
 	}
 	
 	
