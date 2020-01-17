@@ -1,0 +1,17 @@
+<h1>entered text is:</h1>
+{{dataone}}
+
+<h3>text has {{len}} words in total</h3>
+
+<h3> word count</h3>
+{{wordict}}
+
+<h3>sorted</h3>
+{{l}}
+
+
+<h3>word count</h3>
+{% for word,num in wordict1 %}
+{{word}} {{num}}
+<br>
+{% endfor %}
